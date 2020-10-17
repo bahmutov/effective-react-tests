@@ -1,0 +1,25 @@
+{
+  "name": "effective-react-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/effective-react-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/effective-react-tests/issues"
+  },
+  "homepage": "https://github.com/bahmutov/effective-react-tests#readme",
+  "devDependencies": {
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-scripts": "3.4.3"
+  }
+}
