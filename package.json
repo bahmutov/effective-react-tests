@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/bahmutov/effective-react-tests#readme",
   "devDependencies": {
+    "cypress": "5.4.0",
+    "cypress-react-unit-test": "4.16.2",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-scripts": "3.4.3"
