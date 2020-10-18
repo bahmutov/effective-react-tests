@@ -3,5 +3,6 @@
   "componentFolder": "src",
   "testFiles": "**/*.spec.{js,ts,jsx,tsx}",
   "viewportHeight": 300,
-  "viewportWidth": 200
+  "viewportWidth": 200,
+  "experimentalNetworkStubbing": true
 }
