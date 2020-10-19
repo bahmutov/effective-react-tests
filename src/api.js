@@ -5,5 +5,6 @@ export async function postProducts(title) {
       body: JSON.stringify({ title })
   };
   const response = await fetch('https://reqres.in/api/products', requestOptions);
+  console.log('response', response)
   return response;
 }
