@@ -14,5 +14,15 @@ describe('Count', () => {
         <Count />
       </Provider>
     )
+    cy.contains('Current Count: 0')
+    cy.contains('+').click()
+    cy.contains('Current Count: 1')
+    cy.contains('-').click().click()
+    cy.contains('Current Count: -1')
+    cy.wrap(store).invoke('getState').should('deep.equal', {count: -1})
+
+
+    cy.contains('Reset').click()
+    cy.contains('Current Count: 0')
   })
 })
